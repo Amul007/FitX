@@ -20,4 +20,4 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
 );
 
 export default BodyPart;
-    
+
