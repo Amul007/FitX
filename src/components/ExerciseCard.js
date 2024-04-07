@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button, Card, CardContent, CardMedia, Grow, Stack, Typography } from '@mui/material';
 
 const ExerciseCard = ({ exercise }) => (
-  <Grow in={true} timeout={500}>
+  <Grow in timeout={500}> {/* Remove 'true' from the 'in' prop */}
     <Link to={`/exercise/${exercise.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card sx={{ width: 350, height: 500, borderRadius: '20px', boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.1)', transition: 'transform 0.2s', '&:hover': { transform: 'scale(1.05)' } }}>
         <CardMedia

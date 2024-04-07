@@ -7,7 +7,7 @@ import Loader from './Loader';
 const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
   <Box sx={{ mt: { lg: '100px', xs: '0px' } }}>
     <Typography sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} fontWeight={700} color="#000" mb="33px">
-    Same <span style={{ color: 'grey', textTransform: 'capitalize', fontSize:'52px' }}>Muscle</span> exercises
+      Same <span style={{ color: 'grey', textTransform: 'capitalize', fontSize: '52px' }}>Muscle</span> exercises
     </Typography>
     <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
       {targetMuscleExercises.length !== 0 ? (
@@ -21,7 +21,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
       )}
     </Stack>
     <Typography sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px', mt: { lg: '100px', xs: '60px' } }} fontWeight={700} color="#000" mb="33px">
-      Similar <span style={{ color: 'grey', textTransform: 'capitalize', fontSize:'52px' }}>type</span> exercises
+      Similar <span style={{ color: 'grey', textTransform: 'capitalize', fontSize: '52px' }}>type</span> exercises
     </Typography>
     <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
       {equipmentExercises.length !== 0 ? (

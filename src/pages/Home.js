@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <Box>
-      <span className="backImg"></span>
+      <span className="backImg" />
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />

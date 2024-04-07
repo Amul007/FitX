@@ -10,7 +10,7 @@ const Navbar = () => (
     alignItems="center"
     px="20px"
     py="10px"
-    background='transparent'
+    background="transparent"
     boxShadow="0px 4px 6px rgba(0, 0, 0, 0.1)"
   >
     <Link to="/" style={{ textDecoration: 'none' }}>
