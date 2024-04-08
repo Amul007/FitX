@@ -17,7 +17,14 @@ Technologies Used
 
 
 Screenshots:
+
   ![image](https://github.com/Amul007/FitX/assets/91586373/82a09ef9-04d8-4247-8ed4-61159571f086)
+
+  ![image](https://github.com/Amul007/FitX/assets/91586373/17dfb77a-d84f-4e2b-a94b-38702b96f592)
+
+  ![image](https://github.com/Amul007/FitX/assets/91586373/39c4ca28-2966-4770-b3ca-b77bd907e2cd)
+
+
 
 
 Contributing
