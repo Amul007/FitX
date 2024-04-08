@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { Button, Card, CardContent, CardMedia, Grow, Stack, Typography } from '@mui/material';
 
 const ExerciseCard = ({ exercise }) => (
-  <Grow in timeout={500}> {/* Remove unnecessary value assignment for the 'in' prop */}
+  <Grow in timeout={500}>
     <Link to={`/exercise/${exercise.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-      <Card sx={{ width: 350, height: 500, borderRadius: '20px', boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.1)', transition: 'transform 0.2s', '&:hover': { transform: 'scale(1.05)' } }}>
+      <Card sx={{ width: 320, height: 430, borderRadius: '20px', boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.1)', transition: 'transform 0.2s', '&:hover': { transform: 'scale(1.05)' } }}>
         <CardMedia
           component="img"
-          height="350"
+          height="300"
           image={exercise.gifUrl}
           alt={exercise.name}
           style={{ borderTopLeftRadius: '20px', borderTopRightRadius: '20px' }}
